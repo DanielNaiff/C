@@ -8,7 +8,8 @@ int main(){
   printf("\nDigite um valor qualquer: ");
   scanf("%d", &a);
 
-  a < 0 ? printf("\n\tvalor negativo!\n") : printf("\n\tValor positivo\n");
+  a < 0 ? printf("\n\tvalor negativo!\n") : 
+    a > 0 ? printf("\n\tValor positivo\n"): printf("\n\tValor igual a zero\n");
 
   if(a < 0){
     printf("\n\tvalor negativo!\n"); 
